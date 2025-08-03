@@ -64,4 +64,9 @@ dependencies {
     // ARCore
     implementation(libs.ar.core)
     implementation(libs.sceneview.ar)
+
+    // test
+    implementation(libs.androidx.monitor)
+    implementation(libs.androidx.junit.ktx)
+    testImplementation(kotlin("test"))
 }
